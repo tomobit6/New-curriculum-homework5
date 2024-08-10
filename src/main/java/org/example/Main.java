@@ -18,11 +18,11 @@ public class Main {
     LocalTime JA = LocalTime.now();
 
     if (!(JA.getHour() < 23)) {
-      System.out.println("ジャックもう時間がない！");
+      System.out.println("ジャックもう時間がない!");
     } else if (JA.getHour() == 12) {
-      System.out.println("ジャックあと１２時間だ");
+      System.out.println("ジャックあと１２時間だ!");
     } else {
-      System.out.println("ジャック落ち着いてまだ時間はある");
+      System.out.println("ジャック落ち着いてまだ時間はある。");
     }
   }
 }
