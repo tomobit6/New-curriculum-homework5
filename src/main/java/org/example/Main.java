@@ -6,20 +6,20 @@ public class Main {
 
   public static void main(String[] args) {
 
-    String Lastname = "田中";
-    String Firstname = "朋広";
+    String lastName = "田中";
+    String firstName = "朋広";
 
-    if (Lastname.length() >= 2 && Firstname.length() >= 2) {
-      System.out.println(Lastname + " " + Firstname);
+    if (lastName.length() >= 2 && firstName.length() >= 2) {
+      System.out.println(lastName + " " + firstName);
     } else {
       System.out.println("条件に一致しませんでした。");
     }
 
-    LocalTime JA = LocalTime.now();
+    LocalTime ja = LocalTime.now();
 
-    if (!(JA.getHour() < 23)) {
-      System.out.println("ジャックもう時間がない!");
-    } else if (JA.getHour() == 12) {
+    if (!(ja.getHour() < 23)) {
+      System.out.println("ジャックもう時間がない。");
+    } else if (ja.getHour() == 12) {
       System.out.println("ジャックあと１２時間だ!");
     } else {
       System.out.println("ジャック落ち着いてまだ時間はある。");
